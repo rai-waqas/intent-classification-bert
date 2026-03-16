@@ -1,6 +1,6 @@
 # Intent Classification with BERT (Pi School Project)
 
-**Note:** This repository contains a subset of the code developed for a project at **Pi School**. The purpose of sharing this is to demonstrate my work for the admission selection committee. Certain supporting files and datasets are **confidential** and therefore not included. The provided code and this README are sufficient to understand the methodology, training, and evaluation of the project.
+**Note:** This repository contains a subset of the code developed for a project at **Pi School**. The purpose of sharing this is to demonstrate my work for the committee. Certain supporting files and datasets are **confidential** and therefore not included. The provided code and this README are sufficient to understand the methodology, training, and evaluation of the project.
 
 ---
 
@@ -13,7 +13,6 @@ Key features of the project:
 - Fine-tuned **Italian BERT model** for supervised intent classification.
 - **Confidence-calibrated predictions** for operational reliability.
 - **Text normalization pipeline** for consistent downstream processing.
-- **Intent Discovery mechanism** to detect new or ambiguous intents.
 
 This system was designed to support a B2B voicebot, enabling automation while maintaining high accuracy in real-world conditions.
 
@@ -78,10 +77,10 @@ This system was designed to support a B2B voicebot, enabling automation while ma
 | First BERT Iteration       | 0.78       | 79%     |
 | Final Fine-tuned BERT      | 0.89       | 89%     |
 
-**Comparison with Google NLP:**  
+**Comparison with Old System:**  
 
-- Google NLP Accuracy: 84%  
-- BERT Accuracy: 93%  
+- Old System Accuracy: 84%  
+- BERT Accuracy: 90%  
 
 The fine-tuned Italian BERT demonstrates **superior semantic understanding**, correctly classifying cases where the legacy system failed and effectively filtering ambiguous inputs for discovery.
 
